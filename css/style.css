@@ -1,4 +1,4 @@
-/* 
+/*
     Document   : style
     Created on : 25/04/2014, 18:06:43
     Author     : Juan Ramos
@@ -58,7 +58,7 @@ a {
 
 body {
 
-    background: url('../images/Background001.png'), url('../images/Background002.png'), linear-gradient(#2980b9, #071f3e);
+    background: url('../images/Background001.png'), linear-gradient(#2980b9, #071f3e);
 
     /* Standard syntax (must be last) */
 
@@ -153,7 +153,7 @@ Scene
 .earth{
     left: 400px;
     position: fixed;
-    bottom: 150px;
+    bottom: 250px;
 }
 .earth img{
     max-width: 150px;
