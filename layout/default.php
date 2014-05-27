@@ -33,8 +33,8 @@
 
 <footer>
     <figure id="user">
-        <img src="images/user.jpg" alt="Michael"/>
-        <figcaption><div><span>x</span></div><span>Michael Martinez</span></figcaption>
+        <img src="images/profile.png" alt="Profile"/>
+        <figcaption><div><span>x</span></div><span>Neil Armstrong</span></figcaption>
     </figure>
     <figure id="logo"><img src="images/logo.svg" alt="logo mi-martinez"/></figure>
     <nav>
