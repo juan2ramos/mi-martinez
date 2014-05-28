@@ -28,7 +28,6 @@
 </head>
 <body>
 
-<div id="starts"></div>
 <?php include $fileName; ?>
 
 <footer>

@@ -470,6 +470,6 @@ State
    top:0;
     left: 0;
     position: fixed;
-    animation: rotate 1000s linear infinite;
+    animation: rotate 750s linear infinite;
     overflow: hidden;
 }
