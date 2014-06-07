@@ -24,10 +24,19 @@
     <link rel="stylesheet" href="css/normalize.css"/>
     <link rel="stylesheet" href="css/style.css"/>
 
-
+    <link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
 </head>
 <body>
+<a href="#" id="contact">
+        <span class="cube"></span><span class="contact-p">Contactenos</span>
+</a>
 
+<div class="contact-content">
+
+
+    <span class="close">X</span>
+
+</div>
 <?php include $fileName; ?>
 
 <footer>
@@ -69,6 +78,16 @@
 <!-- JavaScript -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="js/parallax.js"></script>
+
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+
 <script src="js/script.js"></script>
+<script type="text/javascript" id="sourcecode">
+    $(function()
+    {
+        $('.scroll-pane').jScrollPane();
+    });
+</script>
 </body>
 </html>
