@@ -1,3 +1,4 @@
+var i = 0;
 $(function  () {
     $('nav li').on('click',function(){
         var id = $(this).data('id');
@@ -17,4 +18,17 @@ $(function  () {
     $('.close').on('click',function(){
         $('.contact-content').removeClass('show-content');
     });
+    setInterval(function(){changeBack()},10000);
 });
+function changeBack(){
+
+    var colorSet = ['#122c43', '#34577b', '#1d606f', '#24063d'];
+    $('body').css('background',colorSet[i]);
+    console.log(i);
+    i++;
+    if(i > 4){
+        i=0;
+    }
+
+
+}

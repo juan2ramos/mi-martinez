@@ -57,17 +57,8 @@ a {
 }
 
 body {
-
-    background: url('../images/Background001.png'), linear-gradient(#2980b9, #071f3e);
-    background: linear-gradient(#122c43, #34577b);
-
-    /* Standard syntax (must be last) */
-
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: 'Nunito', sans-serif;
-    font-size: 16px;
+    background:  #34577b;
+    transition: all 3s;
 }
 
 body, h2, h3, h4, p {
