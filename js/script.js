@@ -13,10 +13,12 @@ $(function  () {
     var scene = document.getElementById('scene');
     var parallax = new Parallax(scene);
     $('#contact').on('click',function(){
+        $('.contact-content').removeClass('closeMove');
         $('.contact-content').addClass('show-content');
     });
     $('.close').on('click',function(){
         $('.contact-content').removeClass('show-content');
+        $('.contact-content').addClass('closeMove');
     });
     setInterval(function(){changeBack()},10000);
 });

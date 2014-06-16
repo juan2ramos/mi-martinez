@@ -54,7 +54,7 @@
         quis. Proin vel elementum ante. Donec hendrerit arcu ac odio tincidunt posuere. Vestibulum nec risus
         eu lacus semper viverra.
     </p>
-
+        <h3 class="title">Diseño Grafico</h3>
     <p>
         Vestibulum dictum consectetur magna eu egestas. Praesent molestie dapibus erat, sit amet sodales
         lectus congue ut. Nam adipiscing, tortor ac blandit egestas, lorem ligula posuere ipsum, nec
@@ -70,7 +70,7 @@
         habitasse platea dictumst. Ut imperdiet mauris vitae eros varius eget accumsan lectus adipiscing.
     </p>
     </div>
-    <h3 class="title">Diseño Grafico</h3>
+
 </section>
 <section id="web-apps">
     <div class="scroll-pane content-section">
